@@ -1,4 +1,4 @@
-![Post_GET](https://github.com/user-attachments/assets/58c62f37-a684-4e7a-94f7-8e8fa184d695)# 백엔드(Python)온보딩트랙 파이널 프로젝트
+# 백엔드(Python)온보딩트랙 파이널 프로젝트
 
 ## 코드
 
