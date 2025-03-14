@@ -45,7 +45,7 @@ MIDDLEWARE = [
 ### 1. 모델 및 마이그레이션
 - models.py
   ```python
-  class Product(models.Model):
+  class Book(models.Model):
     book_name = models.CharField(max_length=30, blank=False, default="")
     price = models.DecimalField(max_digits=20, decimal_places=1, blank=False, default=0)
     writer = models.CharField(max_length=30, blank=False, default="")
@@ -82,7 +82,7 @@ from .serializer import BookSerializer
 from .models import Book
 
 # Create your views here.
-class ProductViewSet(ModelViewSet):
+class BookViewSet(ModelViewSet):
   queryset = Book.objects.all()
   serializer_class = BookSerializer
 ```
@@ -94,7 +94,7 @@ from rest_framework.routers import DefaultRouter
 from . import views
 
 router = DefaultRouter()
-router.register('product', views.ProductViewSet)  # 실제 경로를 바탕으로 api를 주고받을 수 있음
+router.register('book', views.BookViewSet)  # 실제 경로를 바탕으로 api를 주고받을 수 있음
 
 urlpatterns = [
   path('',include(router.urls))
@@ -107,7 +107,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('products.urls'))
+    path('', include('books.urls'))
 ]
 ```
 
