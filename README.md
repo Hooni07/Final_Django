@@ -1,4 +1,4 @@
-# 백엔드(Python)온보딩트랙 파이널 프로젝트
+![Post_GET](https://github.com/user-attachments/assets/58c62f37-a684-4e7a-94f7-8e8fa184d695)# 백엔드(Python)온보딩트랙 파이널 프로젝트
 
 ## 코드
 
@@ -112,3 +112,9 @@ urlpatterns = [
 ```
 
 ## 구현(API Test)
+### GET_POST
+![Post_GET](https://github.com/user-attachments/assets/333a610d-555a-495b-aa17-c1bb7c613d53)
+### PUT_DELETE
+![PUT_DELETE](https://github.com/user-attachments/assets/f5660b9e-228c-46d3-bdb3-33cee1dbb6f4)
+
+
